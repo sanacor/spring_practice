@@ -1,0 +1,13 @@
+CREATE DATABASE LiveChat CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+
+USE LiveChat
+
+
+CREATE TABLE User
+(
+    ID INT,
+    Name VARCHAR(30),
+    BirthDay DATE,
+    Age INT
+);

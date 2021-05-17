@@ -1,5 +1,10 @@
 package com.livechat.peter.demo.user;
 
-public class User {
+import java.util.Date;
 
+public class User {
+    int id;
+    String name;
+    Date birthday;
+    int age;
 }
